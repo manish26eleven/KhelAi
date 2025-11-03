@@ -7,7 +7,7 @@ function App() {
    const [isDark , setIsDark] = useState(false);
    const [isMobile, setIsMobile] = useState(window.innerWidth < 768);
 
-  // Listen for resize
+  // Listen for resize jh fgfh
   useEffect(() => {
     const handleResize = () => setIsMobile(window.innerWidth < 768);
     window.addEventListener("resize", handleResize);
